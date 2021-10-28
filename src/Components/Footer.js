@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
      
         <div className="logo-rodape">AJ Raduenz</div>
-        <div className="info-rodape">&copy;  {ano} Todos os direitos reservados.{document.body.classList.contains('mobile') && <br/>} Site desenvolvido em React<img alt="React" className="react-logo" src={reactLogo}/></div>
+        <div className="info-rodape">&copy;  {ano} Todos os direitos reservados.{document.body.classList.contains('mobile') && <br/>} Desenvolvido em React<img alt="React" className="react-logo" src={reactLogo}/></div>
    
     </footer>
   );
