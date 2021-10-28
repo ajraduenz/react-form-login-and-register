@@ -1,0 +1,41 @@
+footer{
+  height: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+  .logo-rodape {
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+}
+
+.react-logo{
+  width: 40px;
+  aspect-ratio: 1/1;
+  display: inline;
+  margin: 0 1rem;
+}
+.info-rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width:520px) {
+  .react-logo{
+    width: 30px;
+    margin: 0 0 0 0.5rem;
+  }
+  .info-rodape{
+    font-size: 0.7rem;
+  }
+  footer {
+   
+    padding: 0.5rem;
+}
+
+}

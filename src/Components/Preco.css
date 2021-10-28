@@ -1,0 +1,36 @@
+.preco{
+  margin-top:1rem;
+  width: 100%;
+}
+.preco-antigo p{
+  white-space: nowrap;
+}
+.preco-antigo s{
+  padding: 0 0.3rem;
+}
+
+.preco-novo span{
+  font-size: 2rem;
+
+  display: block;
+  text-align: center;
+
+}
+.condicoes{
+  display: flex;
+}
+.condicoes div{
+  padding: 0 0.1rem;;
+}
+.preco-novo.centralizado{
+  text-align: center;
+  background-color: rgb(92, 92, 92);
+  border:1px solid cadetblue;
+  border-radius:20px;
+  width: fit-content;
+  padding: 0.3rem 1rem;
+  margin:0 auto
+}
+.preco-novo.centralizado p{
+font-size: 1.5rem;
+}

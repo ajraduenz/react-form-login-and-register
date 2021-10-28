@@ -1,0 +1,35 @@
+header{
+  font-family: var(--fontePrincipal);
+  display: flex;
+  height: 84px;
+  width: 100%;
+  background-color: var(--preto);
+  padding:0.5rem 0;
+  align-items: flex-end;
+}
+.mobile-links{
+  display: none;
+}
+.mobile-links.open{
+  display: block;
+}
+.logo{
+
+color:var(--cinzaFraco);
+width: 155px;
+display: block;
+line-height: 2rem;
+text-align: center;
+background: var(--cinza);
+border-radius: 8px;
+}
+.logo-bay{
+  flex: 1;
+}
+.icon{
+  padding: 0 15px;
+}
+.icon svg{
+  width: 24px;
+  height: 24px;
+}

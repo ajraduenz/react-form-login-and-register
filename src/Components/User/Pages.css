@@ -1,0 +1,132 @@
+main{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--branco);
+}
+section{
+margin:2.5rem 1rem;
+}
+.intro h1{
+  font-size: 1.25rem;
+  color:var(--preto);
+  font-style: normal;
+  font-weight: 900;
+}
+.intro p{
+  padding: 16px 0;
+  font-size: 0.875rem;
+  color:var(--corEscrita);
+  font-style: normal;
+font-weight: normal;
+}
+.input-bay{
+  width: 100%;
+height: 40px;
+background: #E1E8F3;
+border-radius: 8px;
+display: flex;
+align-items: center;
+margin: 0.75rem 0;
+
+}
+.input-bay svg, .input-bay input{
+  margin-left: 1rem;
+  color: var(--cinzaFraco);
+  font-family: var(--fontePrincipal);
+}
+input{
+outline: none;
+font-size: 1rem;
+border: none;
+background: transparent;
+font-style: normal;
+font-weight: normal;
+
+
+}
+.input-field{
+  width: 100%;
+}
+.senha-esquecida{
+  cursor: pointer;
+font-size: 0.875rem;
+text-decoration-line: underline;
+color: #828BA2;
+text-align: end;
+}
+
+hr.divider {
+  margin: 3rem 0 2rem 0;
+  padding: 0;
+  overflow: visible;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  color: #6e6d7a;
+  text-align: center;
+}
+hr.divider:after {
+  content: 'Ou';
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  padding: 0 16px;
+  background: #fff;
+}
+.entrar-por-redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E8EEF4;
+  margin-top:1rem;
+}
+.entrar-por-redes svg{
+  margin-right:1rem;
+}
+.entrar-por-redes.google{
+  color:var(--corEscrita);
+  background: #F2F6FB; 
+  height: 53px;
+
+border-radius: 8px;
+}
+.entrar-por-redes.facebook{
+height: 53px;
+background: #3B5998;
+border-radius: 8px;
+}
+.observacao{
+text-align: center;
+}
+.observacao a{
+  text-decoration: underline;
+  font-weight: bold;
+  color:var(--cinzaFraco)
+  }
+  .margin-top{
+    margin-top:1.5rem
+  }
+  .container-passo{
+    display: flex;
+    margin-bottom: 2.5rem;
+  }
+  .container-passo .passo{
+    width: 28px;
+height: 28px;
+display: flex;
+justify-content: center;
+align-items: center;
+border:1px solid var(--cinzaFraco);
+border-radius: 50%;
+color:var(--cinzaFraco);
+
+  }
+   .container-passo .passo.ativo{
+    background:var(--cinzaFraco);
+    color:#fff;
+  }
+.separator{
+  color:var(--cinzaFraco);
+  line-height: 2rem;
+  margin: 0;
+  padding: 0;
+}

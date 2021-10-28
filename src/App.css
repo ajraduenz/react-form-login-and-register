@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+:root{
+  --preto:#1A1B20;
+  --cinza:#313641;;
+  --cadetblue: #5f9ea0;
+  --branco: #ffffff;
+  --fontePrincipal: 'Roboto';
+  --cinzaFraco: #828BA1;
+  --corEscrita: #828BA2;
+  --verdeAgua: #00C1A5;
+
+}
+
+*, *:before, *:after{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body{
+  font-family: var(--fontePrincipal);
+  background: #131313;
+  color:#fff
+
+}
+.container{
+  max-width: 1280px;
+  margin:0 auto;
+  padding: 0 1%;
+}
+
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor tex-decoration
+ */ 
+
+ a {
+	text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+  min-height: calc(100vh + 10rem);
+}
+.content{
+  flex:1;
+}
+ input:focus{
+  outline:none;
+  border-bottom: 2px solid var(--branco)!important;
+  margin-bottom: -2px;
+}
+textarea:focus{
+  outline: 2px solid var(--branco)!important;
+ 
+}
+textarea{
+  resize: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #e1e8f3 inset;
+  -webkit-text-fill-color: var(--cinza) !important;
+}
+
+::placeholder {
+  color: #adadad;
+  opacity: 1; /* Firefox */
+  font-family: var(--fontePrincipal);
+letter-spacing: 0.05rem;
+font-size: 1.2rem;
+}
+:-ms-input-placeholder{
+  color: #adadad;
+  font-family: var(--fontePrincipal);
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+}
+::-ms-input-placeholder{
+  color: #adadad;
+  font-family: var(--fontePrincipal);
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+}
+
+
+
+
+
